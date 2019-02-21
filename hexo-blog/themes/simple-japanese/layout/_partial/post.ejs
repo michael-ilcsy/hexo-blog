@@ -2,7 +2,9 @@
   <figure class="post-thumbnail">
     <%- partial('thumbnail', { post: post, hasLink: false, type: "" }) %>
   </figure>
-  <span><%- partial('date', { datetime: post.date }) %></span>
+  <span style="margin-right: 5px;"><%- partial('date', { datetime: post.date }) %></span>
+  <i class="fas fa-folder"></i>
+  <%- partial('category', { post: post }) %>
   <h1 class="title"><%=post.title %></h1>
   <%- partial('tag', { post: post }) %>
   <div class="content">

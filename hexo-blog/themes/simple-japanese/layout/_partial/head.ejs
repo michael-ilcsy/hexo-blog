@@ -1,6 +1,7 @@
 <% var title = page.title %>
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
@@ -15,16 +16,17 @@
   <link rel="icon" href="/favicon.ico">
   <%- partial('google-analytics', { head: true }) %>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <%- css('css/style') %>
   <% if (config.simple_japanese.custom_assets.css) { %>
-    <%- css(config.simple_japanese.custom_assets.css) %>
+  <%- css(config.simple_japanese.custom_assets.css) %>
   <% } %>
   <%- partial('gen-structured-data') %>
   <% if (is_post() && config.generator_amp){ %>
-    <link rel="amphtml" href="<%= config.url %><%= config.root %><%= page.path.replace(".html", "") %>/amp/index.html">
+  <link rel="amphtml" href="<%= config.url %><%= config.root %><%= page.path.replace(".html", "") %>/amp/index.html">
   <% } %>
   <% if (config.simple_japanese.custom_assets.js) { %>
-    <%- js(config.simple_japanese.custom_assets.js) %>
+  <%- js(config.simple_japanese.custom_assets.js) %>
   <% } %>
+
+  <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
 </head>

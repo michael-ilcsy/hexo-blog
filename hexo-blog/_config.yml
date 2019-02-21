@@ -8,8 +8,8 @@ subtitle:
 description:
 keywords:
 author: michael-ilcsy
-author_title: YOUR_DESCRIPTION
-avatar: YOUR_AVATAR_URL
+author_title: へっぽこなWEB寄りエンジニア
+avatar: image/avatar.jpg
 language: ja
 timezone:
 
@@ -82,6 +82,7 @@ widgets:
   - search
   - profile
   - recent_posts
+  - category
   - tagcloud
   - archive
 
@@ -95,9 +96,9 @@ contact:
 
 # Custom assets
 simple_japanese:
-  custom_assets:
-    css: css/custom.css
-    js: js/custom.js
+  custom_assets: ''
+    # css: css/custom.css
+     # js: js/custom.js
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
