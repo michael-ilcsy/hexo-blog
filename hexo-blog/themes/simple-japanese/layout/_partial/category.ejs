@@ -1,4 +1,5 @@
 <% if (post.categories && post.categories.length){ %>
+<i class="fas fa-folder"></i>
 <span class="category">
   <% post.categories.forEach(category => { %>
   <a class="category" href="<%- url_for(category.path) %>"><%= category.name %></a>
