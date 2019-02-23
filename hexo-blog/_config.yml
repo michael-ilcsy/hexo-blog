@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Michael Blog
 subtitle:
 description:
 keywords:
@@ -11,11 +11,11 @@ author: michael-ilcsy
 author_title: へっぽこなWEB寄りエンジニア
 avatar: /image/avatar.jpg
 language: ja
-timezone:
+timezone: 'Asia/Tokyo'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://michael-ilcsy-blog.netlify.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -88,7 +88,7 @@ widgets:
 
 # Contact
 contact:
-  url: YOUR_CONTACT_URL
+  url: https://github.com/michael-ilcsy
   icon: github # font-awesome icon. e.x) fa-github
 
 # Google tag manager

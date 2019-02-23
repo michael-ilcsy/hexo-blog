@@ -5,8 +5,6 @@ tags:
 - Hexo
 - Netlify
 categories: 技術
-language: 'ja'
-timezone: 'Asia/Tokyo'
 ---
 # h1
 ## h2
