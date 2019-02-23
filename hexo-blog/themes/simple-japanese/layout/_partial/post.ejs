@@ -2,7 +2,7 @@
   <figure class="post-thumbnail">
     <%- partial('thumbnail', { post: post, hasLink: false, type: "" }) %>
   </figure>
-  <span style="margin-right: 5px;"><%- partial('date', { datetime: post.date }) %></span>
+  <span><%- partial('date', { datetime: post.date }) %></span>
   <%- partial('category', { post: post }) %>
   <h1 class="title"><%=post.title %></h1>
   <%- partial('tag', { post: post }) %>

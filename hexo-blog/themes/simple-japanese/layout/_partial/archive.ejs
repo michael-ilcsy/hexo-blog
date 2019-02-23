@@ -25,7 +25,6 @@
     <div class="media-content">
       <div class="content">
         <%- partial('_partial/date', { datetime: post.date }) %>
-        <i class="fas fa-folder" style="margin-left: 5px;"></i>
         <%- partial('category', { post: post }) %>
         <h3 class="archive-title title is-5" style="margin-top: 6px;">
           <a href="<%- url_for((post.link ? post.link : post.path)) %>">
