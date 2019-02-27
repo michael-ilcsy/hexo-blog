@@ -112,7 +112,7 @@ DB_PASSWORD=secret
 その際に、`socket error code 10061`というエラーで接続できないことがある。
 そのときは、[Windows上のvagrantにMySQLやらPostgreSQLのクライアントにA5SQLを使う](http://snowlong.hatenablog.com/entry/2017/07/10/160324)を参考にトンネル経由で接続するとうまくいった。
 
- ### 参考
+ ## 参考
 * [Laravel開発のはじめかた Windows編](https://www.hypertextcandy.com/start-laravel-project-on-windows)
 * [Laravel Homesteadに複数のプロジェクトを構築する方法](https://www.hypertextcandy.com/multiple-projects-in-laravel-homestead)
 * [Laravel Homestead 公式](https://readouble.com/laravel/5.7/ja/homestead.html)
