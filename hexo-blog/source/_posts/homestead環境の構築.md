@@ -10,6 +10,9 @@ tags:
 
 今までxamppでLaravel環境を構築していたが、業務でVagrantを使っていい機会なのでLaravel Homestead環境を構築してみた。
 
+**目次**
+<!-- toc -->
+
 ## Homesteadのインストール
 まず、Homesteadのboxをダウンロードする。  
 その際どの仮想環境を使用するか聞かれたので、VirtualBoxを選択。  

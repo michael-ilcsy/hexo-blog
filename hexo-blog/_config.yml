@@ -106,3 +106,9 @@ deploy:
   type:
 
 favicon: /favicon.ico
+
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: uslug
+  anchor: false

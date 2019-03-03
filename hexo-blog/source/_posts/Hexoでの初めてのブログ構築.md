@@ -5,7 +5,8 @@ tags:
 - Hexo
 categories: 技術
 ---
-
+**目次**
+<!-- toc -->
 
 ## Hexoのダウンロードと初期起動
 {% codeblock  lang:sh %}
@@ -59,6 +60,9 @@ simple_japanese:
     js: js/custom.js
 ```
 
+### 注意点
+`hexo server`によるプレビューの際、_configファイルを変更したあとは再起動が必要。
+
 ## アーカイブの書式変更
 デフォルトだとこのテーマのアーカイブは`二月 2019`のようになっていて、漢数字がすごくダサイ。
 hexoには[ヘルパー](https://hexo.io/docs/helpers)というejsで使える関数がいろいろ用意されているみたいなのでそれを利用する。
@@ -89,6 +93,7 @@ hexoには[ヘルパー](https://hexo.io/docs/helpers)というejsで使える�
 * 画像はconfigいじったら、投稿ごとのフォルダにまとめれるらしい
 * `hexo-browsersync`プラグインでオートリロード
 * `hexo clean`でキャッシュやpublicフォルダの削除
+* `hexo-toc`プラグインで目次を記事の途中に挿入可能。参考→[HEXOで目次を自動で作成してくれるhexo-toc](https://keijirotanabe.github.io/blog/2017/02/14/hexo-toc-install-170215/)
 
 ### favicon
 `_config.yml`に`favicon: /favicon.ico`と追加し、`/source`直下にfavicon設置でOK

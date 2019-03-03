@@ -1,4 +1,4 @@
-<% if (post.updated) { %>
+<% if (post.updated && date(post.date, 'YYYY-MM-DD') !== date(post.updated, 'YYYY-MM-DD')) { %>
 <i class="fas fa-wrench"></i>
 <%= date(post.updated, 'YYYY-MM-DD') %>
 <% } %>
