@@ -9,11 +9,11 @@ categories: 技術
 <!-- toc -->
 
 ## Hexoのダウンロードと初期起動
-{% codeblock  lang:sh %}
+```bash
 npm install -g hexo
 hexo init test_dir
 hexo server
-{% endcodeblock %}
+```
 まず`npm install -g hexo`でhexoをグローバルインストール。
 `hexo init test-dir`で新規にhexoプロジェクトの作成。
 `hexo server`でサーバー立ち上げと表示。
@@ -26,7 +26,7 @@ hexo server
 このときgit管理したい場合はzipでダウンロードしたりgitの`submodule`使ったり(よくわかってない)する。
 1. `_config.yml`を書きかえ
 
-```yml
+```yml _config.yml
 # Site
 author: YOUR_NAME
 author_title: YOUR_DESCRIPTION
@@ -68,7 +68,7 @@ simple_japanese:
 hexoには[ヘルパー](https://hexo.io/docs/helpers)というejsで使える関数がいろいろ用意されているみたいなのでそれを利用する。
 
 `themes\simple-japanese\layout\_widget\archive.ejs`の中は以下のような記述になっている。
-```js
+```js archive.ejs
 <% if (site.posts.length){ %>
 <div class="widget-wrap">
   <h3 class="widget-title"><%= __('widget.archives') %></h3>
