@@ -109,5 +109,18 @@ cd Homestead
 
 こんな感じにするとハイライトされた
 
+### 新規ページ作成
+新しい投稿を作るとき
+
+```bash
+hexo new titleName
+```
+
+固定ページを作るとき(aboutページやプライバシーポリシーページなど)
+
+```bash
+hexo new page titleName
+```
+
 ## 参考
 * [Hexoでローカルに静的なブログを作ってみて基本構成を把握する](https://tech.qookie.jp/posts/info-hexo-local/)

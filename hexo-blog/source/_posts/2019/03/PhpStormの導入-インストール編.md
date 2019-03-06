@@ -51,7 +51,6 @@ categories: 技術
 |Alt + 1|**Tool Windows Project**<br>プロジェクトウインドウへ移動
 |Alt + 5|デバッグウインドウを開く
 |Alt + F12|ターミナルを開く
-|Alt + F12|ターミナルを開く
 |Ctrl + Shift + x|コマンドラインツールの入力欄にフォーカス
 |Ctrl + r|**Replace**<br>ファイル内の文字列を置換
 |Ctrl + Shift + Enter|行末のセミコロンなども含めてステートメントを補完してくれる。<br>`function hoge -> function hoge(){}`<br>**めちゃくちゃ使う。必須級**
