@@ -92,7 +92,7 @@ contact:
   icon: github # font-awesome icon. e.x) fa-github
 
 # Google tag manager
-# google_analytics: GTM-XXXXXX
+google_analytics: UA-135780917-1
 
 # Custom assets
 simple_japanese:
