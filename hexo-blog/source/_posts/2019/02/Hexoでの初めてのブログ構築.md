@@ -122,5 +122,28 @@ hexo new titleName
 hexo new page titleName
 ```
 
+### Google Analyticsの導入
+結論から言うと、そこそこハマった。  
+Google Analyticsの設定はそこらじゅうで解説されているので省略。
+そして、`_config.yml`にIDを書く。
+
+```yml _config.yml
+google_analytics: UA-xxxx
+```
+のだが、コンソールに404エラーが出て動かない。
+調べてみると、Google Tag Managerを登録しないといけないようだったので登録。
+
+[Googleタグマネージャとは？初心者でも分かる利用方法と導入手順](https://ferret-plus.com/1745)
+
+が、それでも動かない。
+
+結局、どうしたかというと、`_config.yml`にAnalyticsのIDではなく、Tag ManagerのIDを書いた。
+
+```yml _config.yml
+google_analytics: GTM-xxxx
+```
+腑に落ちないが、これで動いたのでよしとする。
+
+
 ## 参考
 * [Hexoでローカルに静的なブログを作ってみて基本構成を把握する](https://tech.qookie.jp/posts/info-hexo-local/)
