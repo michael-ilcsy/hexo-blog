@@ -1,7 +1,7 @@
 <div class="archive">
   <% switch (type) {
       case 'archive':
-        const title = page.year || __('widget.archives');
+        const title = page.year + '/' + page.month.toString().padStart(2, "0") || __('widget.archives');
   %>
   <h2 class="archive-title subtitle is-4"><%= title %></h2>
   <%
